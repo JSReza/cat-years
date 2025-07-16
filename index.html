@@ -5,22 +5,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
 <body>
-    <section class="section">
-        <div class="container">
-        <h1 class="title">Cat Years Calculator</h1>
-        <div class="box">
-                <form id="form">
-                <div class="field">
-                    <label class="label">Enter your cat's age</label>
-                    <div class="control">
-                    <input type="number" class="input" min="0" required>
-                    </div>
-                </div>
-                </form>
-        </div>
-    <div id="results" class="box content"></div>
-    </div>
-    </section>
+    <h1 class="title">Cat Years Calculator</h1>
+    <form id="form">
+        <label class="label">Enter your cat's age</label>
+        <input type="number" class="input" id = "value" min="0" required>
+        <button class = "submit">SUBMIT</button>
+         </form>
+    <p id="results"></p>
     <script src="cat-years.js"></script>
 </body>
 </html>
